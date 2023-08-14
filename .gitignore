@@ -1,0 +1,12 @@
+node_modules
+tmp
+
+dist
+types
+
+coverage
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
