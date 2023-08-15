@@ -12,9 +12,10 @@
   "scripts": {
     "dev": "tsc --project tsconfig.development.json --watch",
     "build": "tsc --project tsconfig.production.json",
-    "lint": "eslint",
     "test": "node --enable-source-maps --test dist/",
     "test:watch": "node --enable-source-maps --test --watch dist/",
+    "doc": "typedoc src/index.ts --tsconfig tsconfig.production.json",
+    "lint": "eslint",
     "cz": "cz"
   },
   "keywords": [],
@@ -29,6 +30,7 @@
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.1",
+    "typedoc": "^0.24.8",
     "typescript": "^5.1.6"
   },
   "config": {
