@@ -1,0 +1,9 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Unify JS Docs",
+  "entryPoints": ["./src/index.ts"],
+  "tsconfig": "./tsconfig.production.json",
+  "out": "./docs",
+  "categorizeByGroup": false,
+  "includeVersion": true
+}

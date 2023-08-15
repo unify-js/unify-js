@@ -12,23 +12,25 @@
   "scripts": {
     "dev": "tsc --project tsconfig.development.json --watch",
     "build": "tsc --project tsconfig.production.json",
-    "lint": "eslint",
+    "build:doc": "typedoc",
     "test": "node --enable-source-maps --test dist/",
     "test:watch": "node --enable-source-maps --test --watch dist/",
+    "lint": "eslint",
     "cz": "cz"
   },
   "keywords": [],
   "author": "",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
-    "@types/node": "^20.4.9",
-    "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "@typescript-eslint/parser": "^6.3.0",
+    "@types/node": "^20.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
-    "prettier": "^3.0.1",
+    "prettier": "^3.0.2",
+    "typedoc": "^0.24.8",
     "typescript": "^5.1.6"
   },
   "config": {
