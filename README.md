@@ -12,8 +12,10 @@ npm install unify-js
 pnpm add unify-js
 ```
 
-## Usage
+## Example
 
 ```js
 import { swap } from "unify-js";
+const arr = [1, 2, 3];
+swap(arr, 2, 1);
 ```
