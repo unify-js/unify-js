@@ -6,16 +6,16 @@ Unify JS offers JavaScript utilities compatible with both browser and Node.js en
 
 ```bash
 # npm
-npm install unify-js
+npm install @unify-js/utils
 
 # or pnpm
-pnpm add unify-js
+pnpm add @unify-js/utils
 ```
 
 ## Example
 
 ```js
-import { swap } from "unify-js";
+import { swap } from "@unify-js/utils";
 const arr = [1, 2, 3];
 swap(arr, 2, 1);
 ```
